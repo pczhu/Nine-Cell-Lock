@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:weightSum="8">
+    
+    <LinearLayout
+        android:id="@+id/logc_con"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/show_set_info"
+            android:text="请输入手势密码"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            />
+
+        
+    </LinearLayout>
+
+	
+    <LinearLayout
+        android:id="@+id/nine_con"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5.2"
+        >
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.25"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/setting"
+            android:text="手势密码设定"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:gravity="center"
+            />
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/login"
+            android:text="换个账号登陆"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:gravity="center"
+            />
+
+        
+    </LinearLayout>
+</LinearLayout>
